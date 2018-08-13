@@ -46,8 +46,8 @@ function dec(n){
 }
 
 function makeInt(n){
-  parseInt(n, 10);
-  return n;
+  return parseInt(n, 10);
+  
 }
 
 function preserveDecimal(n){
