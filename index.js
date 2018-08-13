@@ -38,11 +38,11 @@ function divide(a,b){
 }
 
 function incrementN(n){
-   return (n = n++);
+   return n++;
 }
 
 function decrementN(n){
-  return (n = n--);
+  return n--;
 }
 
 function makeInt(n){
