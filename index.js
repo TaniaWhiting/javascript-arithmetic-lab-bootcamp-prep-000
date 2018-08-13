@@ -45,5 +45,6 @@ function decrementN(n){
   return (n = n--);
 }
 
-
+function makeInt(n){
+  
 }
