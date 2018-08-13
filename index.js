@@ -37,11 +37,11 @@ function divide(a,b){
   return (a / b);
 }
 
-function incrementN(n){
+function inc(n){
    return n++;
 }
 
-function decrementN(n){
+function dec(n){
   return n--;
 }
 
