@@ -46,5 +46,15 @@ function decrementN(n){
 }
 
 function makeInt(n){
-  
+  parseInt(n,10);
+  return n;
 }
+
+function preserveDecimal(n){
+  if (parseInt(n) === 'NaN'){
+    return ('NaN')}
+  else {parseFloat(n);
+    return n;}
+}
+  
+
